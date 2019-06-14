@@ -1,0 +1,12 @@
+app:
+  id: SampleApp
+apollo:
+  bootstrap:
+    enable: true
+  meta: http://127.0.0.1:7020
+env: DEV
+emds:
+  offline:
+    repoType: file
+    descFile: /emds-boot/work/desc/appDesc.json
+
